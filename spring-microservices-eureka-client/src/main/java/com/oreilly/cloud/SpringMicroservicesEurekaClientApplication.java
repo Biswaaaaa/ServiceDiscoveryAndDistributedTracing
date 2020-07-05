@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 import brave.sampler.Sampler;
 
-@EnableEurekaClient
+@EnableEurekaClient  // or EnableDiscoveryClient 
 @SpringBootApplication
 public class SpringMicroservicesEurekaClientApplication {
 	
