@@ -16,7 +16,7 @@ import com.netflix.discovery.EurekaClient;
 import brave.sampler.Sampler;
 
 @RestController
-@EnableEurekaClient
+@EnableEurekaClient  // or EnableDiscoveryClient 
 @SpringBootApplication
 public class SpringMicroservicesEurekaClient2Application {
 
